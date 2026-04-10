@@ -97,6 +97,30 @@ Without this reminder, the agent may skip multi-dimensional thinking and deliver
 
 ---
 
+## Three Provinces Six Ministries Integration
+
+This skill is designed to work with the Three Provinces Six Ministries workflow:
+
+| Ministry | Role | Self-Check Integration |
+|----------|------|----------------------|
+| 中书省 (Strategy) | Task decomposition | Pre-check: validate approach |
+| 尚书省 (Execution) | Agent dispatch | Mid-check: verify execution |
+| 门下省 (Review) | Quality control | Post-check: confirm delivery |
+
+### Workflow
+
+```
+User → 中书省 (analyze) → Self-Check Pre-Check
+                ↓
+        尚书省 (dispatch) → Self-Check Mid-Check
+                ↓
+        门下省 (review) → Self-Check Post-Check
+                ↓
+            Delivery
+```
+
+---
+
 ## Quick Start
 
 ```bash
