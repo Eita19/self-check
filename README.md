@@ -83,6 +83,20 @@ Before any task, run through a checklist:
 
 ---
 
+## Usage Tips
+
+**Important:** When giving tasks, say:
+
+```
+开启完整自检
+```
+
+This activates the full self-check workflow so the skill works completely.
+
+Without this reminder, the agent may skip multi-dimensional thinking and deliver directly.
+
+---
+
 ## Quick Start
 
 ```bash
